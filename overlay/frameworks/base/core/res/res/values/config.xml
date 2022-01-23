@@ -332,4 +332,7 @@
     <!-- Maximum color temperature, in Kelvin, supported by Night display.
          Setting this to track config_displayWhiteBalanceColorTemperatureDefault (currently 6500K). -->
     <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
+
+    <!-- Enable support device gaming profiles -->
+    <bool name="config_gamingmode_performance">true</bool>
 </resources>
