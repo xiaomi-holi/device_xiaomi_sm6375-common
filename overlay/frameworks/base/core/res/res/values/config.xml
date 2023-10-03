@@ -359,4 +359,7 @@
          Leave 1 if you have mA, put 1000 if you have µA -->
 
     <integer name="config_battCurrentDivider" translatable="false">1</integer>
+    
+     <!-- Enable Night display, which requires HWC 2.0. -->
+    <bool name="config_nightDisplayAvailable">true</bool>
 </resources>
