@@ -190,6 +190,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
 
+# DT2W Services
+PRODUCT_PACKAGES += \
+    DT2WServiceSM6375
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \

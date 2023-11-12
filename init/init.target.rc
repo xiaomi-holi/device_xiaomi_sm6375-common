@@ -177,3 +177,9 @@ service vendor.cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
    group system wifi inet sdcard_rw media_rw diag
    disabled
    oneshot
+
+on property:persist.sys.sm6375.dt2w=0
+    exec /system/bin/sendevent /dev/input/event4 0 1 4
+
+on property:persist.sys.sm6375.dt2w=1
+    exec /system/bin/sendevent /dev/input/event4 0 1
